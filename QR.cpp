@@ -68,7 +68,7 @@ istream &operator>>(istream &is, matrix &A)
 {
     for (int i = 0; i < A.m; i++)
         for (int j = 0; j < A.n; j++)
-            is >> A.M[i][j];
+            is >> A.M[i][j];k
     return is;
 }
 
